@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="bakery.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Bakeshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="page1">
+    <header class="header">
+        <a href="#" class="logo">John "Tasty Treats"</a>
+
+        <nav class="navbar">
+            <a href="form.html">HOME</a>
+            <a href="fillup.html">ORDER NOW</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="men_text">
+            <h1>Welcome to <span>John Bakeshop</span><br>Where Cake is Happiness!</h1>
+        </div>
+        <div class="main_image">
+            <img src="ba.png">
+        </div>
+    </div>
+
+    <p>
+        We at John Bakeshop, we sell a wide variety of delicious cakes. We offer different flavors and designs that are perfect for birthdays, weddings, or any special event. Whether you love classic chocolate or prefer fruity options, we have something for everyone. Our cakes are freshly baked every day to ensure the best taste and quality for our customers.
+    </p>
+
+    <div class="main_btn">
+        <a href="fillup.html">Order Now</a>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+
+</section>
+
+<section class="page2">
+    <div class="order">
+<div class="order-form-container">
+    <h2>Order Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Full Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="@gmail.com">
+
+        <label for="number">Phone Number:</label>
+        <input type="tel" id="number" name="number" placeholder="+63 912345678">
+
+        <label for="flavor">Cake Flavor:</label>
+        <select id="flavor" name="flavor">
+            <option value="">Please Choose An Option</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="cheese">Cheese</option>
+            <option value="red_velvet">Red Velvet</option>
+            <option value="coffee">Coffee</option>
+            <option value="black_forest">Black Forest</option>
+            <option value="blueberry">Blueberry</option>
+        </select>
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="">Please Choose An Option</option>
+            <option value="20_servings">20 Servings</option>
+            <option value="40_servings">40 Servings</option>
+            <option value="60_servings">60 Servings</option>
+        </select>
+
+        <label for="design">Cake Design:</label>
+        <select id="design" name="design">
+            <option value="">Please Choose An Option</option>
+            <option value="simple">Simple</option>
+            <option value="aesthetic">Aesthetic</option>
+            <option value="cartoon">Cartoon</option>
+            <option value="anime">Anime</option>
+            <option value="sport">Sport</option>
+        </select>
+
+        <label for="Quantity">Quantity:</label>
+        <select id="Quantity" name="Quantity">
+            <option value="">Please Select How Many Order</option>
+            <option value="simple">1</option>
+            <option value="aesthetic">2</option>
+            <option value="cartoon">3</option>
+            <option value="anime">4</option>
+            <option value="sport">5</option>
+        </select>
+
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes" placeholder="Anything to add customization to your cake? (optional)"></textarea>
+
+        <div class="buttons">
+
+            <button type ="submit" class="submit-btn">Submit</button>
+            <button type ="button" class="cancel-btn">Cancel</button>
+        </div>
+    </form>
+
+    <div id="message" style="display:none; color: green; font-weight: bold;"></div>
+
+    <section class="contact-section">
+        <div class="contact">
+            <h2>Closing & Opening Hours</h2>
+            <div class="store-hours">
+                <p>Monday - Friday: 8:00 AM - 6:30 PM</p>
+                <p>Saturday: 9:00 AM - 4:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+</div>
+</section>
+
+</body>
+</html>
